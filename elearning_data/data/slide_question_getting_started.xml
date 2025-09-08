@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- HOMEPAGE -->
+    <!-- QUESTION 1 -->
+    <record forcecreate="True" id="question_access_app_top_bar" model="slide.question">
+        <field
+            name="question"
+        >How can I access the various Odoo applications from the top bar?</field>
+        <field name="slide_id" ref="getting_started_home_page_quiz" />
+    </record>
+    <record forcecreate="True" id="question_access_app_top_bar_1" model="slide.answer">
+        <field name="question_id" ref="question_access_app_top_bar" />
+        <field
+            name="text_value"
+        >By clicking on the matrix at the top left of the bar</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_access_app_top_bar_2" model="slide.answer">
+        <field name="question_id" ref="question_access_app_top_bar" />
+        <field name="text_value">By clicking on the "New" button</field>
+    </record>
+    <record forcecreate="True" id="question_access_app_top_bar_3" model="slide.answer">
+        <field name="question_id" ref="question_access_app_top_bar" />
+        <field name="text_value">Using the keyboard shortcut ALT-C</field>
+    </record>
+    <record forcecreate="True" id="question_access_app_top_bar_4" model="slide.answer">
+        <field name="question_id" ref="question_access_app_top_bar" />
+        <field name="text_value">By clicking on the notification button</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record
+        forcecreate="True"
+        id="question_available_feature_top_bar"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What functions are available via the notification icons in Odoo's top bar?</field>
+        <field name="slide_id" ref="getting_started_home_page_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_available_feature_top_bar_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_available_feature_top_bar" />
+        <field name="text_value">View ongoing discussions and plan activities</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_available_feature_top_bar_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_available_feature_top_bar" />
+        <field name="text_value">Manage users</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_available_feature_top_bar_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_available_feature_top_bar" />
+        <field name="text_value">Modify account settings</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_available_feature_top_bar_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_available_feature_top_bar" />
+        <field name="text_value">Create new documents</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_change_company_in_multi"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >Where can I change the company environment when working with several companies in Odoo?</field>
+        <field name="slide_id" ref="getting_started_home_page_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_change_company_in_multi_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_change_company_in_multi" />
+        <field
+            name="text_value"
+        >By clicking on the company name displayed in the top bar</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_change_company_in_multi_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_change_company_in_multi" />
+        <field name="text_value">In account settings</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_change_company_in_multi_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_change_company_in_multi" />
+        <field name="text_value">Using the keyboard shortcut CTRL-S</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_change_company_in_multi_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_change_company_in_multi" />
+        <field name="text_value">By accessing the notification preferences</field>
+    </record>
+    <!-- HOMEPAGE -->
+
+    <!-- VUE LISTE -->
+    <!-- QUESTION 1 -->
+    <record forcecreate="True" id="question_tree_change_view" model="slide.question">
+        <field
+            name="question"
+        >Where can I find the option to select list views in Odoo applications such as Contacts?</field>
+        <field name="slide_id" ref="getting_started_tree_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_tree_change_view_1" model="slide.answer">
+        <field name="question_id" ref="question_tree_change_view" />
+        <field name="text_value">Top right</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_tree_change_view_2" model="slide.answer">
+        <field name="question_id" ref="question_tree_change_view" />
+        <field name="text_value">Bottom left</field>
+    </record>
+    <record forcecreate="True" id="question_tree_change_view_3" model="slide.answer">
+        <field name="question_id" ref="question_tree_change_view" />
+        <field name="text_value">Top left</field>
+    </record>
+    <record forcecreate="True" id="question_tree_change_view_4" model="slide.answer">
+        <field name="question_id" ref="question_tree_change_view" />
+        <field name="text_value">In the middle of the screen</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record forcecreate="True" id="question_tree_change_fields" model="slide.question">
+        <field
+            name="question"
+        >How can you customize the fields displayed in a list view in Odoo?</field>
+        <field name="slide_id" ref="getting_started_tree_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_tree_change_fields_1" model="slide.answer">
+        <field name="question_id" ref="question_tree_change_fields" />
+        <field name="text_value">Using the last button in the list view header</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_tree_change_fields_2" model="slide.answer">
+        <field name="question_id" ref="question_tree_change_fields" />
+        <field name="text_value">Click on the company name</field>
+    </record>
+    <record forcecreate="True" id="question_tree_change_fields_3" model="slide.answer">
+        <field name="question_id" ref="question_tree_change_fields" />
+        <field name="text_value">Closing and reopening Odoo</field>
+    </record>
+    <record forcecreate="True" id="question_tree_change_fields_4" model="slide.answer">
+        <field name="question_id" ref="question_tree_change_fields" />
+        <field name="text_value">By updating the browser</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record forcecreate="True" id="question_tree_server_action" model="slide.question">
+        <field
+            name="question"
+        >What action can you perform on several contacts at once using list views in Odoo?</field>
+        <field name="slide_id" ref="getting_started_tree_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_tree_server_action_1" model="slide.answer">
+        <field name="question_id" ref="question_tree_server_action" />
+        <field name="text_value">Archive them</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_tree_server_action_2" model="slide.answer">
+        <field name="question_id" ref="question_tree_server_action" />
+        <field name="text_value">Rename them</field>
+    </record>
+    <record forcecreate="True" id="question_tree_server_action_3" model="slide.answer">
+        <field name="question_id" ref="question_tree_server_action" />
+        <field name="text_value">Change their colors</field>
+    </record>
+    <record forcecreate="True" id="question_tree_server_action_4" model="slide.answer">
+        <field name="question_id" ref="question_tree_server_action" />
+        <field name="text_value">Print them out</field>
+    </record>
+
+    <!-- QUESTION 4 -->
+    <record forcecreate="True" id="question_tree_navigate_page" model="slide.question">
+        <field
+            name="question"
+        >How can you navigate through different record pages in a list view in Odoo?</field>
+        <field name="slide_id" ref="getting_started_tree_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_tree_navigate_page_1" model="slide.answer">
+        <field name="question_id" ref="question_tree_navigate_page" />
+        <field name="text_value">Using the arrows</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_tree_navigate_page_2" model="slide.answer">
+        <field name="question_id" ref="question_tree_navigate_page" />
+        <field name="text_value">By scrolling up and down</field>
+    </record>
+    <record forcecreate="True" id="question_tree_navigate_page_3" model="slide.answer">
+        <field name="question_id" ref="question_tree_navigate_page" />
+        <field name="text_value">By clicking on the number of records</field>
+    </record>
+    <record forcecreate="True" id="question_tree_navigate_page_4" model="slide.answer">
+        <field name="question_id" ref="question_tree_navigate_page" />
+        <field name="text_value">Double-click on a record</field>
+    </record>
+
+    <!-- QUESTION 5 -->
+    <record forcecreate="True" id="question_tree_warning" model="slide.question">
+        <field
+            name="question"
+        >What should you look out for when using the multiple selection feature in list views to update data in Odoo?</field>
+        <field name="slide_id" ref="getting_started_tree_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_tree_warning_1" model="slide.answer">
+        <field name="question_id" ref="question_tree_warning" />
+        <field name="text_value">This could have an impact on several recordings</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_tree_warning_2" model="slide.answer">
+        <field name="question_id" ref="question_tree_warning" />
+        <field name="text_value">It's too slow</field>
+    </record>
+    <record forcecreate="True" id="question_tree_warning_3" model="slide.answer">
+        <field name="question_id" ref="question_tree_warning" />
+        <field name="text_value">It requires too many clicks</field>
+    </record>
+    <record forcecreate="True" id="question_tree_warning_4" model="slide.answer">
+        <field name="question_id" ref="question_tree_warning" />
+        <field name="text_value">It doesn't work reliably</field>
+    </record>
+    <!-- VUE LISTE -->
+
+    <!-- VUE FORMULAIRE -->
+    <!-- QUESTION 1 -->
+    <record forcecreate="True" id="question_form_create_product" model="slide.question">
+        <field
+            name="question"
+        >Where can I find the option to create a new product when viewing product details in Odoo?</field>
+        <field name="slide_id" ref="getting_started_form_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_form_create_product_1" model="slide.answer">
+        <field name="question_id" ref="question_form_create_product" />
+        <field name="text_value">Top left</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_form_create_product_2" model="slide.answer">
+        <field name="question_id" ref="question_form_create_product" />
+        <field name="text_value">Bottom left</field>
+    </record>
+    <record forcecreate="True" id="question_form_create_product_3" model="slide.answer">
+        <field name="question_id" ref="question_form_create_product" />
+        <field name="text_value">Top right</field>
+    </record>
+    <record forcecreate="True" id="question_form_create_product_4" model="slide.answer">
+        <field name="question_id" ref="question_form_create_product" />
+        <field name="text_value">In the middle of the screen</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record forcecreate="True" id="question_form_smart_button" model="slide.question">
+        <field
+            name="question"
+        >What are Smart Buttons used for in Odoo form views?</field>
+        <field name="slide_id" ref="getting_started_form_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_form_smart_button_1" model="slide.answer">
+        <field name="question_id" ref="question_form_smart_button" />
+        <field name="text_value">Access relevant information</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_form_smart_button_2" model="slide.answer">
+        <field name="question_id" ref="question_form_smart_button" />
+        <field name="text_value">Change colors</field>
+    </record>
+    <record forcecreate="True" id="question_form_smart_button_3" model="slide.answer">
+        <field name="question_id" ref="question_form_smart_button" />
+        <field name="text_value">Print documents</field>
+    </record>
+    <record forcecreate="True" id="question_form_smart_button_4" model="slide.answer">
+        <field name="question_id" ref="question_form_smart_button" />
+        <field name="text_value">Close form</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_form_navigate_product"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How can you navigate between different products in Odoo?</field>
+        <field name="slide_id" ref="getting_started_form_view_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_form_navigate_product_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_form_navigate_product" />
+        <field name="text_value">Using the arrows at top right</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_form_navigate_product_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_form_navigate_product" />
+        <field name="text_value">Click on the company logo</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_form_navigate_product_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_form_navigate_product" />
+        <field name="text_value">By scrolling up and down</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_form_navigate_product_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_form_navigate_product" />
+        <field name="text_value">Using the navigation menu</field>
+    </record>
+
+    <!-- QUESTION 4 -->
+    <record forcecreate="True" id="question_form_print" model="slide.question">
+        <field
+            name="question"
+        >What actions can you perform using the little cogwheel icon in Odoo's form views?</field>
+        <field name="slide_id" ref="getting_started_form_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_form_print_1" model="slide.answer">
+        <field name="question_id" ref="question_form_print" />
+        <field name="text_value">Generate reports</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_form_print_2" model="slide.answer">
+        <field name="question_id" ref="question_form_print" />
+        <field name="text_value">Page navigation</field>
+    </record>
+    <record forcecreate="True" id="question_form_print_3" model="slide.answer">
+        <field name="question_id" ref="question_form_print" />
+        <field name="text_value">Modify permissions</field>
+    </record>
+    <record forcecreate="True" id="question_form_print_4" model="slide.answer">
+        <field name="question_id" ref="question_form_print" />
+        <field name="text_value">Refresh page</field>
+    </record>
+
+    <!-- QUESTION 5 -->
+    <record forcecreate="True" id="question_form_smart_tab" model="slide.question">
+        <field
+            name="question"
+        >Which feature at the bottom of the screen allows you to configure specific product details in Odoo?</field>
+        <field name="slide_id" ref="getting_started_form_view_quiz" />
+    </record>
+    <record forcecreate="True" id="question_form_smart_tab_1" model="slide.answer">
+        <field name="question_id" ref="question_form_smart_tab" />
+        <field name="text_value">Via tabs</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_form_smart_tab_2" model="slide.answer">
+        <field name="question_id" ref="question_form_smart_tab" />
+        <field name="text_value">Action buttons</field>
+    </record>
+    <record forcecreate="True" id="question_form_smart_tab_3" model="slide.answer">
+        <field name="question_id" ref="question_form_smart_tab" />
+        <field name="text_value">Configuration wheel</field>
+    </record>
+    <record forcecreate="True" id="question_form_smart_tab_4" model="slide.answer">
+        <field name="question_id" ref="question_form_smart_tab" />
+        <field name="text_value">Settings menu</field>
+    </record>
+    <!-- VUE FORMULAIRE -->
+
+    <!-- NAVIGATION -->
+    <!-- QUESTION 1 -->
+    <record
+        forcecreate="True"
+        id="question_navigation_hyperlink"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What advantages do hypertext links in Odoo offer when browsing through suppliers?</field>
+        <field name="slide_id" ref="getting_started_navigation_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_hyperlink_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_navigation_hyperlink" />
+        <field
+            name="text_value"
+        >They provide direct access to the details of the record concerned.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_hyperlink_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_navigation_hyperlink" />
+        <field
+            name="text_value"
+        >They automatically change the interface language</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_hyperlink_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_navigation_hyperlink" />
+        <field name="text_value">They download PDF documents</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_hyperlink_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_navigation_hyperlink" />
+        <field name="text_value">They modify application parameters</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record
+        forcecreate="True"
+        id="question_navigation_create_sale_order_keybord_shortcut"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How can you navigate between different products in Odoo? (Mac user replace ALT with Control)</field>
+        <field name="slide_id" ref="getting_started_navigation_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_create_sale_order_keybord_shortcut_1"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_navigation_create_sale_order_keybord_shortcut"
+        />
+        <field name="text_value">By pressing Alt+C</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_create_sale_order_keybord_shortcut_2"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_navigation_create_sale_order_keybord_shortcut"
+        />
+        <field name="text_value">By pressing Alt+F4</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_create_sale_order_keybord_shortcut_3"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_navigation_create_sale_order_keybord_shortcut"
+        />
+        <field name="text_value">By pressing Alt+SHIFT+M</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_create_sale_order_keybord_shortcut_4"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_navigation_create_sale_order_keybord_shortcut"
+        />
+        <field name="text_value">By pressing Alt+P</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_navigation_multi_task_multi_screen"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How does Odoo facilitate the management of simultaneous tasks on multiple screens?</field>
+        <field name="slide_id" ref="getting_started_navigation_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_multi_task_multi_screen_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_navigation_multi_task_multi_screen" />
+        <field name="text_value">By opening links in new tabs</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_multi_task_multi_screen_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_navigation_multi_task_multi_screen" />
+        <field
+            name="text_value"
+        >By integrating social networking functionalities</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_multi_task_multi_screen_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_navigation_multi_task_multi_screen" />
+        <field name="text_value">By displaying pop-up notifications</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_navigation_multi_task_multi_screen_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_navigation_multi_task_multi_screen" />
+        <field
+            name="text_value"
+        >By automatically synchronizing data between screens</field>
+    </record>
+    <!-- NAVIGATION -->
+
+    <!-- EXCHANGE -->
+    <!-- QUESTION 1 -->
+    <record
+        forcecreate="True"
+        id="question_exchange_chatter_use"
+        model="slide.question"
+    >
+        <field name="question">What is the main role of the "chatter" in Odoo?</field>
+        <field name="slide_id" ref="getting_started_exchange_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_chatter_use_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_chatter_use" />
+        <field
+            name="text_value"
+        >Track changes and enable internal and external exchanges.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_chatter_use_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_chatter_use" />
+        <field name="text_value">Send mass emails to all contacts.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_chatter_use_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_chatter_use" />
+        <field name="text_value">Manage user permissions.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_chatter_use_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_chatter_use" />
+        <field name="text_value">Automatically modify file information.</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record
+        forcecreate="True"
+        id="question_exchange_internal_note"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What type of message remains strictly internal in Odoo?</field>
+        <field name="slide_id" ref="getting_started_exchange_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_internal_note_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_internal_note" />
+        <field name="text_value">A message sent via the "Note" button.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_internal_note_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_internal_note" />
+        <field name="text_value">A message sent via the "Note" button.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_internal_note_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_internal_note" />
+        <field name="text_value">A message sent directly from the employee file.</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_exchange_joined_documents"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What happens when you add an attachment to the chatter?</field>
+        <field name="slide_id" ref="getting_started_exchange_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_joined_documents_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_joined_documents" />
+        <field
+            name="text_value"
+        >The attachment is automatically shared with all subscribers to the file.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_joined_documents_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_joined_documents" />
+        <field
+            name="text_value"
+        >The attachment is visible only to the user who added it.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_joined_documents_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_joined_documents" />
+        <field
+            name="text_value"
+        >The attachment is converted to text and displayed in the chatter.</field>
+    </record>
+
+    <!-- QUESTION 4 -->
+    <record
+        forcecreate="True"
+        id="question_exchange_notification"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How can you make sure you're informed of updates to a file in Odoo?</field>
+        <field name="slide_id" ref="getting_started_exchange_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_notification_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_notification" />
+        <field name="text_value">By becoming a follower.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_notification_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_notification" />
+        <field name="text_value">By adding a manual alert to your calendar.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_notification_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_notification" />
+        <field name="text_value">By sending an external message to all users.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_exchange_notification_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_exchange_notification" />
+        <field name="text_value">By accessing the file every hour.</field>
+    </record>
+
+    <!-- QUESTION 5 -->
+    <record forcecreate="True" id="question_exchange_reminder" model="slide.question">
+        <field
+            name="question"
+        >Which "chatter" feature can be used to create reminders for future tasks?</field>
+        <field name="slide_id" ref="getting_started_exchange_quiz" />
+    </record>
+    <record forcecreate="True" id="question_exchange_reminder_1" model="slide.answer">
+        <field name="question_id" ref="question_exchange_reminder" />
+        <field name="text_value">Activities.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_exchange_reminder_2" model="slide.answer">
+        <field name="question_id" ref="question_exchange_reminder" />
+        <field name="text_value">Subscriber tracking option.</field>
+    </record>
+    <record forcecreate="True" id="question_exchange_reminder_3" model="slide.answer">
+        <field name="question_id" ref="question_exchange_reminder" />
+        <field name="text_value">Adding attachments.</field>
+    </record>
+    <record forcecreate="True" id="question_exchange_reminder_4" model="slide.answer">
+        <field name="question_id" ref="question_exchange_reminder" />
+        <field name="text_value">The "Send a message" button.</field>
+    </record>
+    <!-- EXCHANGE -->
+
+    <!-- FILTRER, RECHERCHER ET REGROUPER -->
+    <!-- QUESTION 1 -->
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_and_or_filter"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What happens when you select two pre-configured filters in the same section?</field>
+        <field name="slide_id" ref="getting_started_filter_search_group_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_and_or_filter_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_and_or_filter" />
+        <field name="text_value">Both filters are combined with "or".</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_and_or_filter_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_and_or_filter" />
+        <field name="text_value">Filters are ignored</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_and_or_filter_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_and_or_filter" />
+        <field name="text_value">Only the first filter is applied</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_and_or_filter_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_and_or_filter" />
+        <field name="text_value">Both filters are combined with "and".</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_ge_enter"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What happens if you type "GE" in the Odoo search bar and press "Enter"?</field>
+        <field name="slide_id" ref="getting_started_filter_search_group_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_ge_enter_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_ge_enter" />
+        <field
+            name="text_value"
+        >Odoo searches for contacts with "GE" in their name.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_ge_enter_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_ge_enter" />
+        <field
+            name="text_value"
+        >Odoo searches for companies whose name begins with "GE".</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_ge_enter_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_ge_enter" />
+        <field
+            name="text_value"
+        >Odoo searches for companies whose email contains "GE".</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_ge_enter_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_ge_enter" />
+        <field
+            name="text_value"
+        >Odoo searches for companies with "JE" in their name</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_save_search"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >Where can you save a search to find it later in Odoo?</field>
+        <field name="slide_id" ref="getting_started_filter_search_group_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_save_search_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_save_search" />
+        <field name="text_value">In the favorites on the right</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_save_search_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_save_search" />
+        <field name="text_value">In the filters on the left</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_save_search_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_save_search" />
+        <field name="text_value">In the center clusters</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_save_search_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_filter_search_group_save_search" />
+        <field name="text_value">In the text field at the bottom</field>
+    </record>
+
+    <!-- QUESTION 4 -->
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_groupby_company_partner"
+        model="slide.question"
+    >
+        <field name="question">How can you group contacts by company in Odoo?</field>
+        <field name="slide_id" ref="getting_started_filter_search_group_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_groupby_company_partner_1"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_filter_search_group_groupby_company_partner"
+        />
+        <field name="text_value">Using the company grouping option</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_groupby_company_partner_2"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_filter_search_group_groupby_company_partner"
+        />
+        <field name="text_value">By selecting a company filter</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_groupby_company_partner_3"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_filter_search_group_groupby_company_partner"
+        />
+        <field name="text_value">By manually sorting contacts</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_groupby_company_partner_4"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_filter_search_group_groupby_company_partner"
+        />
+        <field name="text_value">By entering the company name in the search bar</field>
+    </record>
+
+    <!-- QUESTION 5 -->
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_activities_productivity"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How can I search for contacts whose email contains a specific word in Odoo?</field>
+        <field name="slide_id" ref="getting_started_filter_search_group_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_activities_productivity_1"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_filter_search_group_activities_productivity"
+        />
+        <field
+            name="text_value"
+        >By specifying that the search must be made in the email field</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_activities_productivity_2"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_filter_search_group_activities_productivity"
+        />
+        <field name="text_value">Filtering by name first</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_filter_search_group_activities_productivity_3"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_filter_search_group_activities_productivity"
+        />
+        <field name="text_value">By adding a city search filter</field>
+    </record>
+    <!-- FILTRER, RECHERCHER ET REGROUPER -->
+
+    <!-- SAVE, DELETE, ARCHIVE, SEARCH -->
+    <!-- QUESTION 1 -->
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_difference_in_edit"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What is the main difference between Odoo's editing functions and those of other software packages?</field>
+        <field name="slide_id" ref="getting_started_save_delete_archive_search_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_difference_in_edit_1"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_difference_in_edit"
+        />
+        <field
+            name="text_value"
+        >Changes are automatically saved without the need to switch to edit mode.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_difference_in_edit_2"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_difference_in_edit"
+        />
+        <field
+            name="text_value"
+        >Modifications require manual confirmation after each change.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_difference_in_edit_3"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_difference_in_edit"
+        />
+        <field
+            name="text_value"
+        >You must first enter edit mode to modify the data.</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_force_save"
+        model="slide.question"
+    >
+        <field name="question">How can I force Odoo to save changes?</field>
+        <field name="slide_id" ref="getting_started_save_delete_archive_search_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_force_save_1"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_force_save"
+        />
+        <field name="text_value">By clicking on the cloud icon.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_force_save_2"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_force_save"
+        />
+        <field name="text_value">By clicking on the update icon</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_force_save_3"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_force_save"
+        />
+        <field name="text_value">Press the "Enter" key after each modification.</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_ireversible_action"
+        model="slide.question"
+    >
+        <field name="question">What action is irreversible in Odoo?</field>
+        <field name="slide_id" ref="getting_started_save_delete_archive_search_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_ireversible_action_1"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_ireversible_action"
+        />
+        <field name="text_value">Delete an employee.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_ireversible_action_2"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_ireversible_action"
+        />
+        <field name="text_value">Archive an employee.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_ireversible_action_3"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_ireversible_action"
+        />
+        <field name="text_value">Ignore a data change.</field>
+    </record>
+
+    <!-- QUESTION 4 -->
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_consequence_delete_employee"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What is the consequence of deleting an employee file in Odoo?</field>
+        <field name="slide_id" ref="getting_started_save_delete_archive_search_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_consequence_delete_employee_1"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_consequence_delete_employee"
+        />
+        <field
+            name="text_value"
+        >The employee is completely deleted from the database.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_consequence_delete_employee_2"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_consequence_delete_employee"
+        />
+        <field
+            name="text_value"
+        >The employee is moved to an archive and can be restored.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_consequence_delete_employee_3"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_consequence_delete_employee"
+        />
+        <field
+            name="text_value"
+        >The employee is marked as inactive but remains accessible.</field>
+    </record>
+
+    <!-- QUESTION 5 -->
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_create_without_consent"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How can I create a new record in Odoo unintentionally?</field>
+        <field name="slide_id" ref="getting_started_save_delete_archive_search_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_create_without_consent_1"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_create_without_consent"
+        />
+        <field
+            name="text_value"
+        >By validating a data entry for a non-existent result.</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_create_without_consent_2"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_create_without_consent"
+        />
+        <field name="text_value">By activating a specific creation mode.</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_save_delete_archive_search_create_without_consent_3"
+        model="slide.answer"
+    >
+        <field
+            name="question_id"
+            ref="question_save_delete_archive_search_create_without_consent"
+        />
+        <field
+            name="text_value"
+        >By selecting a creation option from the main menu.</field>
+    </record>
+    <!-- SAVE, DELETE, ARCHIVE, SEARCH -->
+
+</odoo>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record forcecreate="True" id="getting_started" model="slide.channel">
+        <field name="name">Getting started</field>
+        <field name="enroll">public</field>
+        <field name="visibility">connected</field>
+        <field name="publish_template_id" eval="False" />
+        <field name="completed_template_id" eval="False" />
+        <field name="website_published" eval="True" />
+        <field name="allow_comment" eval="False" />
+    </record>
+
+    <record forcecreate="True" id="advanced_use" model="slide.channel">
+        <field name="name">Advanced Use</field>
+        <field name="enroll">public</field>
+        <field name="visibility">connected</field>
+        <field name="publish_template_id" eval="False" />
+        <field name="completed_template_id" eval="False" />
+        <field name="website_published" eval="True" />
+        <field name="allow_comment" eval="False" />
+    </record>
+</odoo>

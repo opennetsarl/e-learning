@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- ANALYSIS -->
+    <!-- QUESTION 1 -->
+    <record
+        forcecreate="True"
+        id="question_default_analysis_sale"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >Which measure is used by default for sales analysis in the example?</field>
+        <field name="slide_id" ref="advanced_use_analysis_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_default_analysis_sale_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_default_analysis_sale" />
+        <field name="text_value">Total excluding tax</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_default_analysis_sale_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_default_analysis_sale" />
+        <field name="text_value">Sales after tax</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_default_analysis_sale_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_default_analysis_sale" />
+        <field name="text_value">Number of customers</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_default_analysis_sale_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_default_analysis_sale" />
+        <field name="text_value">Number of orders</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record
+        forcecreate="True"
+        id="question_available_graphic_analysis"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What type of graphic is not mentioned as an available option in the interface?</field>
+        <field name="slide_id" ref="advanced_use_analysis_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_available_graphic_analysis_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_available_graphic_analysis" />
+        <field name="text_value">Area chart</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_available_graphic_analysis_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_available_graphic_analysis" />
+        <field name="text_value">Bar graph</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_available_graphic_analysis_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_available_graphic_analysis" />
+        <field name="text_value">Line graph</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_available_graphic_analysis_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_available_graphic_analysis" />
+        <field name="text_value">Pie chart</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_click_on_pivot_table"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What can be done by clicking on a value in a pivot table?</field>
+        <field name="slide_id" ref="advanced_use_analysis_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_click_on_pivot_table_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_click_on_pivot_table" />
+        <field name="text_value">Access the values that make up the cell</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_click_on_pivot_table_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_click_on_pivot_table" />
+        <field name="text_value">Change chart type</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_click_on_pivot_table_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_click_on_pivot_table" />
+        <field name="text_value">Download corresponding data</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_click_on_pivot_table_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_click_on_pivot_table" />
+        <field name="text_value">Delete selected value</field>
+    </record>
+    <!-- ANALYSIS -->
+
+    <!-- CUSTOMIZED FILTERS AND GROUPINGS -->
+    <!-- QUESTION 1 -->
+    <record forcecreate="True" id="question_groupby_contact" model="slide.question">
+        <field name="question">How can I group contacts in Odoo's search bar?</field>
+        <field name="slide_id" ref="advanced_use_custom_filter_groupby_quiz" />
+    </record>
+    <record forcecreate="True" id="question_groupby_contact_1" model="slide.answer">
+        <field name="question_id" ref="question_groupby_contact" />
+        <field name="text_value">All</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_groupby_contact_2" model="slide.answer">
+        <field name="question_id" ref="question_groupby_contact" />
+        <field name="text_value">Per name</field>
+    </record>
+    <record forcecreate="True" id="question_groupby_contact_3" model="slide.answer">
+        <field name="question_id" ref="question_groupby_contact" />
+        <field name="text_value">Per city</field>
+    </record>
+    <record forcecreate="True" id="question_groupby_contact_4" model="slide.answer">
+        <field name="question_id" ref="question_groupby_contact" />
+        <field name="text_value">By creation date</field>
+    </record>
+    <record forcecreate="True" id="question_groupby_contact_5" model="slide.answer">
+        <field name="question_id" ref="question_groupby_contact" />
+        <field name="text_value">By phone number</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record forcecreate="True" id="question_delete_groupby" model="slide.question">
+        <field name="question">How can I delete a custom grouping in Odoo?</field>
+        <field name="slide_id" ref="advanced_use_custom_filter_groupby_quiz" />
+    </record>
+    <record forcecreate="True" id="question_delete_groupby_1" model="slide.answer">
+        <field name="question_id" ref="question_delete_groupby" />
+        <field
+            name="text_value"
+        >By clicking on the small cross next to the group</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record forcecreate="True" id="question_delete_groupby_2" model="slide.answer">
+        <field name="question_id" ref="question_delete_groupby" />
+        <field name="text_value">By selecting the group and pressing Delete</field>
+    </record>
+    <record forcecreate="True" id="question_delete_groupby_3" model="slide.answer">
+        <field name="question_id" ref="question_delete_groupby" />
+        <field name="text_value">By unchecking the group box</field>
+    </record>
+    <record forcecreate="True" id="question_delete_groupby_4" model="slide.answer">
+        <field name="question_id" ref="question_delete_groupby" />
+        <field name="text_value">By double-clicking on the group</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_contact_count_when_filter"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How many contacts were found in France after applying the filter in the example given?</field>
+        <field name="slide_id" ref="advanced_use_custom_filter_groupby_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_contact_count_when_filter_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_contact_count_when_filter" />
+        <field name="text_value">Three contacts</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_contact_count_when_filter_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_contact_count_when_filter" />
+        <field name="text_value">Two contacts</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_contact_count_when_filter_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_contact_count_when_filter" />
+        <field name="text_value">One contact</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_contact_count_when_filter_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_contact_count_when_filter" />
+        <field name="text_value">Four contacts</field>
+    </record>
+
+    <!-- QUESTION 4 -->
+    <record
+        forcecreate="True"
+        id="question_which_filter_has_been_used"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What additional criteria were applied to screen people at Pleasant Hill?</field>
+        <field name="slide_id" ref="advanced_use_custom_filter_groupby_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_which_filter_has_been_used_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_which_filter_has_been_used" />
+        <field name="text_value">The analyst position</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_which_filter_has_been_used_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_which_filter_has_been_used" />
+        <field name="text_value">Phone number</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_which_filter_has_been_used_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_which_filter_has_been_used" />
+        <field name="text_value">Date of birth</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_which_filter_has_been_used_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_which_filter_has_been_used" />
+        <field name="text_value">Marital status</field>
+    </record>
+
+    <!-- QUESTION 5 -->
+    <record
+        forcecreate="True"
+        id="question_better_existant_filter"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How can an existing filter be refined to target analysts at Pleasant Hill?</field>
+        <field name="slide_id" ref="advanced_use_custom_filter_groupby_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_better_existant_filter_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_better_existant_filter" />
+        <field name="text_value">By creating a new combined filter</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_better_existant_filter_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_better_existant_filter" />
+        <field name="text_value">By adding a new filter group</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_better_existant_filter_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_better_existant_filter" />
+        <field name="text_value">By ticking a specific box</field>
+    </record>
+    <!-- CUSTOMIZED FILTERS AND GROUPINGS -->
+
+    <!-- DASHBOARDS -->
+    <!-- QUESTION 1 -->
+    <record
+        forcecreate="True"
+        id="question_access_purchase_dashboard"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How can I access the details of a specific purchase order in the Dashboard application?</field>
+        <field name="slide_id" ref="advanced_use_dashboard_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_access_purchase_dashboard_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_access_purchase_dashboard" />
+        <field name="text_value">By clicking on the purchase order number</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_access_purchase_dashboard_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_access_purchase_dashboard" />
+        <field
+            name="text_value"
+        >By clicking on the supplier associated with the order</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_access_purchase_dashboard_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_access_purchase_dashboard" />
+        <field name="text_value">Using the product category filter</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_access_purchase_dashboard_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_access_purchase_dashboard" />
+        <field name="text_value">Navigating from dashboard to dashboard</field>
+    </record>
+
+    <!-- QUESTION 2 -->
+    <record
+        forcecreate="True"
+        id="question_list_after_sale_dashboard"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >What is presented in list form under the purchasing time trend in the purchasing dashboard?</field>
+        <field name="slide_id" ref="advanced_use_dashboard_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_list_after_sale_dashboard_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_list_after_sale_dashboard" />
+        <field name="text_value">The best countries</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_list_after_sale_dashboard_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_list_after_sale_dashboard" />
+        <field name="text_value">The best buyers</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_list_after_sale_dashboard_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_list_after_sale_dashboard" />
+        <field name="text_value">The best products</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_list_after_sale_dashboard_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_list_after_sale_dashboard" />
+        <field name="text_value">The best suppliers</field>
+    </record>
+
+    <!-- QUESTION 3 -->
+    <record
+        forcecreate="True"
+        id="question_reset_filter_dashboard"
+        model="slide.question"
+    >
+        <field
+            name="question"
+        >How can you reset the filters applied in the Purchasing dashboard to display all the data again?</field>
+        <field name="slide_id" ref="advanced_use_dashboard_quiz" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_reset_filter_dashboard_1"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_reset_filter_dashboard" />
+        <field
+            name="text_value"
+        >By closing and reopening the Dashboard application</field>
+        <field name="is_correct" eval="True" />
+    </record>
+    <record
+        forcecreate="True"
+        id="question_reset_filter_dashboard_2"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_reset_filter_dashboard" />
+        <field name="text_value">By double-clicking on the dashboard</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_reset_filter_dashboard_3"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_reset_filter_dashboard" />
+        <field name="text_value">By clicking on a "Reset filters" button</field>
+    </record>
+    <record
+        forcecreate="True"
+        id="question_reset_filter_dashboard_4"
+        model="slide.answer"
+    >
+        <field name="question_id" ref="question_reset_filter_dashboard" />
+        <field name="text_value">Navigate to another dashboard</field>
+    </record>
+    <!-- DASHBOARDS -->
+</odoo>
