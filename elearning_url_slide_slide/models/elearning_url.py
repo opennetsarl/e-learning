@@ -6,6 +6,7 @@ from odoo import fields, models
 
 class eLearningUrl(models.Model):
     _name = "elearning.url"
+    _description = "Slide URL"
 
     lang = fields.Many2one(
         comodel_name="res.lang",
@@ -19,10 +20,6 @@ class eLearningUrl(models.Model):
 
     url = fields.Char(string="URL")
 
-    _sql_constraints = [
-        (
-            "unique_lang_slide_id",
-            "UNIQUE(lang, slide_id)",
-            "URL for this language already exists for this slide.",
-        )
-    ]
+    _sql_unique_lang_slide_id = models.Constraint(
+        "UNIQUE(lang, slide_id)", "URL for this language already exists for this slide."
+    )
