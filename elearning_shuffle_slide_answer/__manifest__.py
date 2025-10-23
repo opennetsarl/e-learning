@@ -8,7 +8,7 @@
     "depends": [
         "website_slides",
     ],
-    "version": "18.0.0.1.0",
+    "version": "19.0.0.1.0",
     "auto_install": False,
     "website": "https://github.com/OCA/e-learning",
     "license": "AGPL-3",

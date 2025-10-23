@@ -10,22 +10,19 @@
                     name="url"
                     string="URL"
                     invisible="slide_category != 'video'"
-                    groups="base.group_no_one"
                 >
-                    <group>
+                    <field
+                        name="elearning_url_ids"
+                        widget="one2many_list"
+                        context="{'default_slide_id': id}"
+                    >
+                        <list editable="bottom">
+                            <field name="url" />
+                            <field name="lang" />
+                        </list>
+                    </field>
+                    <group groups="base.group_no_one">
                         <field name="url" readonly="True" />
-                    </group>
-                    <group>
-                        <field
-                            name="elearning_url_ids"
-                            widget="one2many_list"
-                            context="{'default_slide_id': id}"
-                        >
-                            <list editable="bottom">
-                                <field name="url" />
-                                <field name="lang" />
-                            </list>
-                        </field>
                     </group>
                 </page>
                 <page
@@ -34,16 +31,12 @@
                     invisible="slide_category != 'article'"
                     groups="base.group_no_one"
                 >
-                    <field name="html_content" widget="char" />
                     <field name="html_content" />
                 </page>
             </xpath>
             <xpath expr="//field[@name='video_url']" position="attributes">
                 <attribute name="required">False</attribute>
                 <attribute name="readonly">True</attribute>
-            </xpath>
-            <xpath expr="//field[@name='completion_time']" position="after">
-                <field name="completion_time" groups="base.group_no_one" />
             </xpath>
         </field>
     </record>
